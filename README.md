@@ -1,7 +1,7 @@
 # python-little-projects
 ## A few projects to start in Python
 
-- [ ] Madlibs
+- [ ] #Madlibs#
 
 - [ ] Guess the Number (Computer)
 
