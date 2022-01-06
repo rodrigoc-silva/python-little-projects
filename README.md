@@ -1,26 +1,26 @@
 # python-little-projects
 ## A few projects to start in Python
 
-- [ ] **Madlibs**
+- [X] **Madlibs**
 
-- [ ] ###Guess the Number (Computer)
+- [X] **Guess the Number (Computer)**
 
-- [ ] Guess the Number (USer)
+- [x] **Guess the Number (USer)**
 
-- [ ] Rock Paper Scissors
+- [x] **Rock Paper Scissors**
 
-- [ ] Hangman
+- [x] **Hangman**
 
-- [ ] Tic-tac-toe
+- [x] **Tic-tac-toe**
 
-- [ ] Tic-tac-toe AI
+- [x] **Tic-tac-toe AI**
 
-- [ ] Binary Search
+- [ ] **Binary Search**
 
-- [ ] Minesweeper
+- [ ] **Minesweeper**
 
-- [ ] Sudoku Solver
+- [ ] **Sudoku Solver**
 
-- [ ] Photo Manipulation
+- [ ] **Photo Manipulation**
 
-- [ ] Markov Chain Text Composer
+- [ ] **Markov Chain Text Composer**
