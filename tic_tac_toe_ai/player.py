@@ -1,5 +1,5 @@
 # this program runs with tic-tac-toe 
-# 49:05
+
 import math
 import random
 
@@ -12,13 +12,6 @@ class Player:
     def get_move(self, game):
         pass
         
-class RandomComputerPlayer(Player):
-    def __init__(self, letter):
-        super().__init__(letter)
-        
-    def get_move(self, game):
-        square = random.choice(game.available_moves())
-        return square
         
 class HumanPlayer(Player):
     def __init__(self, letter):
@@ -43,7 +36,7 @@ class HumanPlayer(Player):
         return val
         
 
-GeniusComputerPlayer(Player):
+class GeniusComputerPlayer(Player):
     def __init__(self, letter):
         super().__init__(letter)
 
@@ -52,7 +45,7 @@ GeniusComputerPlayer(Player):
             square = random.choice(game.available_moves()) # randomly choose one
         else:
             # get the square based off the minimax algorithm
-            square = self.minimax(game, self.letter)
+            square = self.minimax(game, self.letter)['position']
         return square
         
     def minimax(self, state, player):
@@ -62,7 +55,7 @@ GeniusComputerPlayer(Player):
         # first, we want to check if the previous move is a winner
         # this is our base case
         if state.current_winner == other_player:
-            # we should return position AND score because we need to keep track 
+            # we should return position and score because we need to keep track 
             # of the score for minimax to work
             return {'position': None, 
                     'score': 1 * (state.num_empty_squares() + 1) if other_player == max_player else -1 * (
@@ -80,37 +73,21 @@ GeniusComputerPlayer(Player):
             
         for possible_move in state.available_moves():
             # 1: make a move, try that spot
-            
-            # 2: recurse using minimax to simulate a ga,e after making that move
-            
+            state.make_move(possible_move, player)
+            # 2: recurse using minimax to simulate a game after making that move
+            simulation_score = self.minimax(state, other_player) # alternate player
             # 3: undo the move
-            
+            state.board[possible_move] = ' '
+            state.current_winner = None
+            simulation_score['position'] = possible_move 
             # 4: update the dictionaries if necessary
-            
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+            if player == max_player: # maximize the max_player
+                if simulation_score['score'] > best['score']:
+                    best = simulation_score
+            else: # minimize the othe player
+                if simulation_score['score'] < best['score']:
+                    best = simulation_score
+                    
+        return best
         
         
