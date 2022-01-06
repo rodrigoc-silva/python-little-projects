@@ -3,24 +3,24 @@
 
 - [ ] Madlibs
 
-[] Guess the Number (Computer)
+- [ ] Guess the Number (Computer)
 
-[] Guess the Number (USer)
+- [ ] Guess the Number (USer)
 
-[] Rock Paper Scissors
+- [ ] Rock Paper Scissors
 
-[] Hangman
+- [ ] Hangman
 
-[] Tic-tac-toe
+- [ ] Tic-tac-toe
 
-[] Tic-tac-toe AI
+- [ ] Tic-tac-toe AI
 
-[] Binary Search
+- [ ] Binary Search
 
-[] Minesweeper
+- [ ] Minesweeper
 
-[] Sudoku Solver
+- [ ] Sudoku Solver
 
-[] Photo Manipulation
+- [ ] Photo Manipulation
 
-[] Markov Chain Text Composer
+- [ ] Markov Chain Text Composer
