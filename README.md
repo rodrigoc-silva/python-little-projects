@@ -15,7 +15,7 @@
 
 - [x] **Tic-tac-toe AI**
 
-- [ ] **Binary Search**
+- [x] **Binary Search**
 
 - [ ] **Minesweeper**
 
