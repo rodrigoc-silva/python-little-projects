@@ -17,7 +17,7 @@
 
 - [x] **Binary Search**
 
-- [ ] **Minesweeper**
+- [x] **Minesweeper**
 
 - [ ] **Sudoku Solver**
 
