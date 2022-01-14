@@ -21,6 +21,6 @@
 
 - [x] **Sudoku Solver**
 
-- [ ] **Photo Manipulation**
+- [x] **Photo Manipulation**
 
 - [ ] **Markov Chain Text Composer**
