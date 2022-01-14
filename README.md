@@ -19,7 +19,7 @@
 
 - [x] **Minesweeper**
 
-- [ ] **Sudoku Solver**
+- [x] **Sudoku Solver**
 
 - [ ] **Photo Manipulation**
 
