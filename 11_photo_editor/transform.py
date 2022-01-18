@@ -90,9 +90,9 @@ if __name__ == '__main__':
     lake = Image(filename='lake.png')
     city = Image(filename='city.png')
     
-    ## brightening
-    # brightened_im = brighten(lake, 1.8)
-    # brightened_im.write_image('brightened2.png')
+    # brightening
+    brightened_im = brighten(lake, 1.8)
+    brightened_im.write_image('brightened2.png')
     
     ## darken
     # darkened_im = brighten(lake, 0.3)
