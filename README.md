@@ -23,4 +23,4 @@
 
 - [x] **Photo Manipulation**
 
-- [ ] **Markov Chain Text Composer**
+- [x] **Markov Chain Text Composer**
